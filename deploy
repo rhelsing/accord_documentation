@@ -1,0 +1,3 @@
+gitbook build
+push "updates"
+aws s3 sync _book s3://accord-documentation/ --acl public-read
