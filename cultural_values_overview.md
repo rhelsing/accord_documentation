@@ -2,9 +2,21 @@
 
 The following are Accord team value statements. These should each individuals decision making. When deciding between several paths forward, analyze if the certain paths can be eliminated due to conflicts with these statements. This is a living document. We do not want to have multiple, underlying, hidden and conflicting value statements that will hinder our success and cohesion. If you disagree with any of the following statements, let's have a discussion. We are seeking team alignment so let's get on the same page instead of building our culture on eroding soil.
 
-##We are a culture of doers, learners, teachers.
+##we are a culture of doers, learners, teachers.
 
 Nothing is below your pay grade. Don't just take on all the work yourself and don't just mindlessly delegate either. Spend time to teach. Spend time doing the gritty stuff yourself. Spend time really understanding the problem before delegating.
+
+##weekly goal tracking & focused, agile, time management
+
+We are process and output oriented (5-15 / goal for week / broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to learn how to consistently find our work threshold so that we can accurately set our own achievable goals and have those goals at the same time be substantial, without burning out.
+
+##results oriented
+
+When setting (weekly/daily) goals for yourself, aim for it to be something measurable. Like 3 client calls, or 10 issues.
+
+##team cohesion, unified goal, direct communication
+
+Let's discuss things we disagree on until we agree or compromise. Let those be declared and explicit instead of implied. Address cruft early and often.
 
 ##async (asynchronous)
 
@@ -16,37 +28,17 @@ We will try not to do things that take others time if they do not have to. If yo
 
 We do not want to use apps or methods that cannot be accessed, modified, or commented on by all at any time. Managing any sort of process should not be done on a Excel document or an application that cannot be freely accessed by all. This is important to get right so that we can be asynchronous. The best tools right now for this are trello, the main accord application itself, our team chat application (mattermost), and github.
 
-##results oriented,
+##agile, scientific, not over-engineered, sprints, adaptive, mvp
 
-When setting (weekly/daily) goals for yourself, aim for it to be something measurable. Like 3 client calls, or 10 issues.
-
-#do not disturb headphones
-
-When someone has their headphones on, leave them alone unless "the building is on fire". If you need to grind, put your headphones on.
-
-##agile, scientific, under engineered, sprints, adaptive
-
-see mvp & read this: https://hackernoon.com/an-agile-approach-to-life-7bb2e9ccbc81
-
-##address cruft
-
-See unified Goal
-
-##mvp
-
-When building something, instead of over engineering, build the dumbest quickest possible solution and set a short deadline for yourself. You will learn vastly more in doing than planning.
-
-##weekly goal tracking & focused, agile, time management
-
-We are process and output oriented (5-15 / goal for week / broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to learn how to consistently find our work threshold so that we can accurately set our own achievable goals and have those goals at the same time be substantial, without burning out.
+When building something, instead of over engineering, build the dumbest quickest possible solution and set a short deadline for yourself. You will learn vastly more in doing than planning. This does not only apply to software: https://hackernoon.com/an-agile-approach-to-life-7bb2e9ccbc81
 
 ##documented
 
-THIS. If something is not here or this document is unclear, change it.
+If something is not here or this document is unclear, add it & change it.
 
-##unified goal
+##do not disturb headphones
 
-Let's discuss things we disagree on until we agree or compromise. Let those be declared and explicit instead of implied.
+When someone has their headphones on, leave them alone unless "the building is on fire". If you need to grind, put your headphones on.
 
 ##trello
 
