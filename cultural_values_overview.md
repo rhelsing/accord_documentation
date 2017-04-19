@@ -2,6 +2,7 @@ The following are Accord team value statements. These should each individuals de
 
 * We are learners.
 * Buckle down and own it: nothing is below your pay grade.. doers #culture
+* Don't just do it yourself and don't just mindlessly delegate.. spend time to teach and do gritty stuff yourself sometimes
 * collaborative,
 * async
 * visible,
