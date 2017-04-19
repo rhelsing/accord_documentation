@@ -4,7 +4,7 @@ The following are Accord team value statements. These should each individuals de
 
 ##we are a culture of doers, learners, teachers.
 
-Nothing is below your pay grade. Don't just take on all the work yourself and don't just mindlessly delegate either. Spend time to teach. Spend time doing the gritty stuff yourself. Spend time really understanding the problem before delegating.
+Don't just take on all the work yourself and don't just mindlessly delegate either. Spend time to teach. Spend time doing the gritty stuff yourself. Try not to think of any task, no matter how menial, as below your pay grade. Spend time really understanding the problem before delegating. This will take some adjustment but we want each individual to be their own manager, use their own judgment when finding this balance.
 
 ##weekly goal tracking & focused, agile, time management
 
@@ -30,7 +30,7 @@ We do not want to use apps or methods that cannot be accessed, modified, or comm
 
 ##agile, scientific, not over-engineered, sprints, adaptive, mvp
 
-When building something, instead of over engineering, build the dumbest quickest possible solution and set a short deadline for yourself. You will learn vastly more in doing than planning. This does not only apply to software: https://hackernoon.com/an-agile-approach-to-life-7bb2e9ccbc81
+When building something, instead of over engineering, build the dumbest quickest possible solution and set a short deadline for yourself. You will learn vastly more in doing than planning. This does not only apply to software: https://hackernoon.com/an-agile-approach-to-life-7bb2e9ccbc81.
 
 ##documented
 
