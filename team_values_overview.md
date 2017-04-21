@@ -16,17 +16,17 @@ When setting (weekly/daily) goals for yourself, aim for it to be something measu
 
 ##team cohesion, unified goal, direct communication
 
-Let's discuss things we disagree on until we agree or compromise. Let those be declared and explicit instead of implied. Address cruft early and often.
+Let's discuss things we disagree on until we agree or compromise. Let those be declared and explicit instead of implied.
 
 ##async (asynchronous)
 
-We will try not to do things that take others time if they do not have to. If you have a question to ask and it is not mission critical, do not interrupt someone for that answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someones productivity just so we can get our answer now. Of course, there are exceptions to this value. This point is primarily about not distracting others, so they can focus on their work. **The primary reason for this: interrupting a programmer is the best way to destroy an hours worth of information in 10 seconds**:
+We will try not to do things that take others time if they do not have to. If you have a question to ask and it is not mission critical, do not interrupt someone for that answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someone else's productivity just so we can get our answer now. Of course, there are exceptions to this rule. This point is primarily about not distracting others, so they can focus on their work. **A big reason for this value: interrupting a programmer is the best way to destroy an hours worth of information in 10 seconds**:
 
 ![alt text](/img/ProgrammerInterrupted.png "Logo Title Text 1")
 
 ##visible, collaborative, accessible
 
-We do not want to use apps or methods that cannot be accessed, modified, or commented on by all at any time. Managing any sort of process should not be done on a Excel document or an application that cannot be freely accessed by all. This is important to get right so that we can be asynchronous. The best tools right now for this are trello, the main accord application itself, our team chat application (mattermost), and github.
+We do not want to use apps or internal/external processes that cannot be accessed, modified, or commented on by all at any time. Managing any sort of process should not be done on a Excel document or an application that cannot be freely accessed by all. This is important to get right so that we can be asynchronous. The best tools right now for this are trello, the main accord application itself, our team chat application (mattermost), and github.
 
 ##agile, scientific, not over-engineered, sprints, adaptive, mvp
 
