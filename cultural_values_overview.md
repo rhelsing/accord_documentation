@@ -1,6 +1,6 @@
 #Cultural Values
 
-The following are Accord team value statements. These should guide each individuals decision making when combined with declared roles and company initiatives at any given time. If you are unsure of the your role or company initiative related to your role, ask! When deciding between several paths forward, analyze if the certain paths can be eliminated due to conflicts with these statements. This is a living document. We do not want to have multiple, underlying, hidden and conflicting value statements that will hinder our success and cohesion. If you disagree with any of the following statements, let's have a discussion. We are seeking team alignment so let's get on the same page instead of building our culture on eroding soil.
+The following are Accord team value statements. These should guide each individuals decision making when combined with quarterly roles and company initiatives at any given time. If you are unsure of the your role or company initiative related to your role, ask! When deciding between several paths forward, analyze if the certain paths can be eliminated due to conflicts with these statements. This is a living document. We do not want to have multiple, underlying, hidden and conflicting value statements that will hinder our success and cohesion. If you disagree with any of the following statements, let's have a discussion. We are seeking team alignment so let's get on the same page instead of building our culture on eroding soil.
 
 ##we are a culture of doers, learners, teachers.
 
@@ -20,7 +20,7 @@ Let's discuss things we disagree on until we agree or compromise. Let those be d
 
 ##async (asynchronous)
 
-We will try not to do things that take others time if they do not have to. If you have a question to ask and it is not mission critical, do not interrupt someone for that answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someones productivity just so we can get our answer now. Of course, there are exceptions to this value. This point is primarily about not distracting others, so they can focus on their work. **The primary reason for this interrupting a programmer is the best way to destroy an hours worth of information in 10 seconds**:
+We will try not to do things that take others time if they do not have to. If you have a question to ask and it is not mission critical, do not interrupt someone for that answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someones productivity just so we can get our answer now. Of course, there are exceptions to this value. This point is primarily about not distracting others, so they can focus on their work. **The primary reason for this: interrupting a programmer is the best way to destroy an hours worth of information in 10 seconds**:
 
 ![alt text](/img/ProgrammerInterrupted.png "Logo Title Text 1")
 
