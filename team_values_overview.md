@@ -22,33 +22,32 @@ When setting (weekly/daily) goals for yourself, aim for it to be something measu
 
 Let's discuss things we disagree on until we agree or compromise. Let those be declared and explicit instead of implied. We will always attempt to reach decisions in a collaborative manner, however senior leadership will need to make decisions periodically when there are multiple dug in opinions. Then, we all row the same way.
 
-##Async (Asynchronous)
-
-We will try not to do things that consume others time if we do not have to. If you have a question to ask, and it is not mission critical, do not interrupt someone for the answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someone else's productivity just so we can get our answer immediately. Of course, there are exceptions to this rule. This point is primarily about not distracting others, so they can focus on their work. Relevant example: http://twitpic.com/dj27dh
-
 ##Visible, collaborative, accessible
 
-We do want to use apps or internal/external processes that can be accessed, modified, or commented on by all at any time. Managing any sort of process should not be done on an Excel document or an application that cannot be freely accessed by all. This is important to get right so that we can be asynchronous. The best tools right now for this are Trello, the main accord application itself, our team chat application (mattermost), and github.
+We do want to use applications or internal/external processes that can be accessed, modified, or commented on by all at any time. Managing any sort of process should not be done on an Excel document or an application that cannot be freely accessed by all. This is important to get right so that we can be asynchronous. The best tools right now for this are Trello, the main accord application itself, our team chat application (Mattermost), and Github.
 
-##Agile, scientific, not over-engineered, sprints, adaptive, mvp
+##Async (Asynchronous)
 
-When building something, instead of over engineering, build the dumbest quickest possible solution and set a short deadline for yourself. You will learn vastly more in doing than planning. This does not only apply to software: https://hackernoon.com/an-agile-approach-to-life-7bb2e9ccbc81.
+Asynchronous means multiple people can work at the same time. We will try not to do things that consume others time if we do not have to. If you have a question to ask, and it is not mission critical, do not interrupt someone for the answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someone else's productivity just so we can get our answer immediately. Of course, there are exceptions to this rule. This point is primarily about not distracting others, so they can focus on their work. Relevant example: http://twitpic.com/dj27dh
+
+Having a headphone policy will help with this too. When someone has their headphones on, leave them alone unless "the building is on fire". If you need to grind, put your headphones on.
+
+##Agile
+
+In certain cases, rigorous planning before acting can hurt you more than help. When building a new feature or experimental strategy, instead of over planning, build a quick and naive solution based on your best theory for action at the time and set a short deadline for yourself to try it out. You will learn vastly more about what really needs to be done in attempting a solution rather than planning to tackle it. The impact in a startup comes from a hidden 20% of the effort. Please note that this approach does not apply to all areas. It works very well for finding unknown unknowns, for features and experimental strategies, but not for well understood problems. Know when to apply this strategy and when not to. Some related terms are: scientific, sprints, adaptive, minimum viable product, minimum viable solution. Some excellent talks that represent this mindset if you would like to learn more:
+
+https://www.youtube.com/watch?v=JjDsP5n2kSM (Jonathan Blow - How to program independent games)
+
+https://vimeo.com/108441214 (Greg Young - The art of destroying software)
 
 ##Documented
 
-We want to have our process approachable to anyone. Not only that, but quickly searchable. If you find yourself asking the same question multiple times, it is a good candidate to be added in the relevant section or to the knowledge base.
+We want to have our process approachable to anyone. Not only that, but quickly search-able. If you find yourself asking the same question multiple times, it is a good candidate to be added in the relevant section or to the knowledge base.
 
-##Do not disturb headphones
-
-When someone has their headphones on, leave them alone unless "the building is on fire". If you need to grind, put your headphones on.
-
-##Trello
-
-Use it. Learn it.
 
 ##Development issue and feature log
 
-Is this a big problem or a little problem? At any given time, there will be 3 or so years of improvements that need to be made to the system. We should only add something to this list if it comes up consistently and is truly a problem. We should also prioritize our list of items to tackle often. Manage these on github.
+Is this a big problem or a little problem? At any given time, there will be 3 or so years of improvements that need to be made to the system. We should only add something to this list if it comes up consistently and is truly a problem. We should also prioritize our list of items to tackle often. Manage these on Github.
 
 
 ![](https://i.reddituploads.com/d35e9236a2954ebe8ef70e02808a3ba3?fit=max&h=1536&w=1536&s=fb4ee4ee54e339013a6db22785904208)
