@@ -12,7 +12,7 @@ Don't just take on all the work yourself and don't just mindlessly delegate eith
 
 ##Weekly goal tracking & focused, agile, time management
 
-We are process and output oriented ( complete weekly goal report / have broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to learn how to consistently find our work threshold, so that we can accurately set our own achievable goals, and have those goals at the same time be substantial, without burning out. Try to set measurable goals for yourself.
+We are process and output oriented ( complete weekly goal report / have broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to **learn how to consistently find our work threshold, so that we can accurately set our own achievable goals**, and have those goals at the same time be substantial, without burning out. Try to set measurable goals for yourself.
 
 Weekly goal reports: http://accord.team (If you don't know your token, let us know)
 
@@ -32,7 +32,7 @@ Having a headphone policy will help with this too. When someone has their headph
 
 ##Agile
 
-In certain cases, rigorous planning before acting can hurt you more than help. When building a new feature or experimental strategy, instead of over planning, build a quick and naive solution based on your best theory for action at the time and set a short deadline for yourself to try it out. You will learn vastly more about what really needs to be done in attempting a solution rather than planning to tackle it. The impact in a startup comes from a hidden 20% of the effort. **Please note that this approach does not apply to all areas. It works very well for finding unknown unknowns, for features and experimental strategies, but not for well understood problems. Know when to apply this strategy and when not to. Some related terms are: scientific, sprints, adaptive, minimum viable product, minimum viable solution.**
+In certain cases, rigorous planning before action can hurt you more than help. When building a new feature or experimental strategy, instead of over planning, build a quick and naive solution based on your best theory for action at the time and set a short deadline for yourself to try it out. You will learn vastly more about what really needs to be done in attempting a solution rather than planning to tackle it. **Please note that this approach does not apply to all areas. It works very well for finding unknown unknowns, for features and experimental strategies, but not for well understood problems. Know when to apply this strategy and when not to. Some related terms are: scientific, sprints, adaptive, minimum viable product, minimum viable solution.**
 
 Some excellent talks & resources that represent this mindset if you would like to learn more:
 
