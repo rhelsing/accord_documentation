@@ -12,9 +12,9 @@ Don't just take on all the work yourself and don't just mindlessly delegate eith
 
 ##Weekly goal tracking & focused, agile, time management
 
-We are process and output oriented (5-15 / goal for week / broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to learn how to consistently find our work threshold, so that we can accurately set our own achievable goals, and have those goals at the same time be substantial, without burning out. Try to set measurable goals for yourself.
+We are process and output oriented ( complete weekly goal report / have broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to learn how to consistently find our work threshold, so that we can accurately set our own achievable goals, and have those goals at the same time be substantial, without burning out. Try to set measurable goals for yourself.
 
-http://accord.team (If you don't know your token, let us know)
+Weekly goal reports: http://accord.team (If you don't know your token, let us know)
 
 ##Team cohesion, unified goal, direct communication
 
@@ -22,7 +22,7 @@ Let's discuss things we disagree on until we agree or compromise. Let those be d
 
 ##Visible, collaborative, accessible
 
-We want to use applications or internal/external processes that can be accessed, modified, or commented on by all relevant self. Managing any sort of process should not be done on an Excel document or a paid membership based applications that have free alternatives. This is important to get right so that we can be asynchronous. The best tools right now for this are Trello, the main accord application itself, our team chat application (Mattermost), and Github.
+We want to use applications or internal/external processes that can be accessed, modified, or commented on by all relevant self. Managing any sort of process should not be done on an Excel document or any costly membership-based applications which have free alternatives. This is important to get right so that we can be asynchronous (see the relevant section) and maintain a low barrier to entry when adding members to a team or process. The best tools right now for this are Trello, the main accord application itself, our team chat application (Mattermost), and Github.
 
 ##Async (Asynchronous)
 
@@ -48,7 +48,8 @@ We want our processes to be approachable for new employees, We also want our pra
 
 ##Development issue and feature log
 
-Is this a big problem or a little problem? At any given time, there will be 3-5 years of improvements that need to be made to the system. We should only add something to this list if it comes up consistently and is truly a problem. A true problem can be defined as tremendous impediment to usability of the product, not a "would be nice" enhancement; we should prioritize our list of issues with this concept in mind. Manage these on Github.
+Is this a big problem or a little problem? At any given time, there will be 3-5 years of improvements that need to be made to the system. We should only add something to this list if it comes up consistently and is truly a problem. A true problem can be defined as tremendous impediment to usability of the product, not a "would be nice" enhancement; we should prioritize our list of issues with this concept in mind. We manage these on Github with the issue tracker.
 
+##One more thing...
 
 ![](https://i.reddituploads.com/d35e9236a2954ebe8ef70e02808a3ba3?fit=max&h=1536&w=1536&s=fb4ee4ee54e339013a6db22785904208)
