@@ -1,4 +1,4 @@
-# Transformations V2
+# Transformations v2
 
 ## Introduction
 
@@ -22,6 +22,19 @@ Use the transform task in your file pipeline to change values in your data file,
 ```
 
 A more complex transformation may include calculations, field mappings, data queries, and other commands that you can use to build the transformations you need.
+
+## Function List
+
+Function | Brief Description
+-------- | -----------------
+[lookup](#perform-key-lookup) | Import a set of values from a reference table.
+[dedup](#perform-key-dedup) | Remove duplicate records from the uploaded data.
+[select](#perform-keys-select-and-reject) | Select (query) data from the Input based on a set of criteria.
+[reject](#perform-keys-select-and-reject) | Reject data from the Input based on a set of criteria.
+[convert](#perform-key-convert) | Use a formula to change the data contained in a column.
+[derive](#perform-key-derive) | Create a new column in the Output and populate the column with values based on a formula.
+[aggregate](#perform-key-aggregate) | Turn the Output into an aggregate report.
+[map](#perform-key-map) | Define field mappings between Input and new columns generated through calculations, and Output.
 
 ## Definitions
 
@@ -151,7 +164,7 @@ multiply | [field_name, int, field_name, ...]
 divide | [field_name, int]
 exp | [field_name, int]
 invert | invert_type or {value_to_flip: flipped_value} | Invert types could be: boolean, yn
-self | | Pass the value through unmodified
+self | | Pass the value through unmodified (**placeholder** this might not be needed)
 other | field_name | Pass the value from another field
 time-values | \*\*NOW\*\*, \*\*TOMORROW\*\*, {past: time_period}, {future: time_period} | time_period = "2 Months" "1 Year" etc.
 custom | ssn, date, name_split
@@ -208,19 +221,40 @@ custom | ssn, date, name_split
 }
 ```
 
-### Perform Key: `reduce`
+### Perform Key: `aggregate`
 
-**Placeholder: clarification needed**
+Turn the Output into an aggregate report. This key can only contain a single object, not an array. To create an aggregate report on multiple numeric fields, use an array inside the `formula` key in the object (example, below).
 
-**Joe's comment** Is `reduce` meant to aggregate values across columns, or does `reduce` cause the Output to become like an aggregate report? If it's the latter of the two, then we might also need a `group_by` key. An example Output might look like this for `{ "group_by": "department", "reduce": { "column": "wages", "function": "sum", "ouput_name": "total_wages" } }`:
+This report shows the average pay and contribution per pay period, grouped by department and employee.
 
-Department | Total Wages
----------- | -----------
-Accounting | $1,319,000
-Sales | $8,221,000
-etc | ...
+The `aggregate` key must contain an object with the following keys:
 
-Grouping could possibly have multiple levels, e.g., `{ "group_by": [ "department", "job_function" ] }`.
+Function (key) Name | Expected Value | Notes
+------------------- | -------------- | -----
+group_by | [ field_name, field_name ] | (optional) Can be a single field, or array of fields. If group_by is omitted, the Output is a single record aggregate of all the fields.
+formula | { function_name: input_column_name, as: output_column_name } | Can be a single object, or an array of objects. Available functions: average, count, max, min, sum
+
+**Example**
+
+```json
+{
+  "aggregate": {
+    "group_by": ["department", "employee"],
+    "formula": [
+      { "average": "gross_pay", "as": "average_pay"},
+      { "average": "employer_contribution", "as": "average_contribution" }
+    ]
+  }
+}
+```
+
+department | employee | average_pay | average_contribution
+---------- | -------- | ----------- | --------------------
+Accounting | Betty Bookkeeper | $3,419 | $275
+Accounting | Casey Counter | $3,419 | $275
+Sales | Joe Closer | $4,392 | $243
+Sales | Sean Lemon | $3,992 | $256
+etc | ... | ... | ...
 
 ### Perform Key: `map`
 
