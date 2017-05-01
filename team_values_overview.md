@@ -1,6 +1,6 @@
 #Team Values
 
-The following are Accord team value statements. These statements should guide each individuals decision making process when combined with quarterly roles and stated company initiatives. We have assigned you a quarterly role. If you are uncertain about your role or of the company initiatives related to your role, please ask! If you disagree with these statements, let's have a discussion. We are seeking team alignment, so let's make sure we are on - and stay on - the same page.
+The following are Accord team value statements. These statements should guide each individual's decision making process when combined with quarterly roles and stated company initiatives. We have assigned you a quarterly role. If you are uncertain about your role or of the company initiatives related to your role, please ask! If you disagree with these statements, let's have a discussion. We are seeking team alignment, so let's make sure we are on - and stay on - the same page.
 
 ##Building and maintaining trust
 
@@ -12,13 +12,13 @@ Don't just take on all the work yourself and don't just mindlessly delegate eith
 
 ##Weekly goal tracking & focused, agile, time management
 
-We are process and output oriented ( complete weekly goal report / have broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to **learn how to consistently find our work threshold, so that we can accurately set our own achievable goals**, and have those goals at the same time be substantial, without burning out. Try to set measurable goals for yourself.
+We are process and output oriented (complete weekly goal report / have broad goal for month / do not disturb section). Don't take on more than you can chew and end up not completing any of the tasks you set for yourself, and don't set your bar low so that you can always achieve your goals. One of our primary roles is to **learn how to consistently find our work threshold, so that we can accurately set our own achievable goals**, and have those goals at the same time be substantial, without burning out. Try to set measurable goals for yourself.
 
 Weekly goal reports: http://accord.team (If you don't know your token, let us know)
 
 ##Team cohesion, unified goal, direct communication
 
-Let's discuss things we disagree on until we agree or compromise. Let those be declared and explicit instead of implied. We will always attempt to reach decisions in a collaborative manner, however senior leadership will need to make decisions periodically when there are multiple dug in opinions. Then, we will all row the same way.
+Let's discuss things we disagree on until we agree or compromise. Let those be declared and explicit instead of implied. We will always attempt to reach decisions in a collaborative manner; however senior leadership will need to make decisions periodically when there are multiple dug in opinions. Then, we will all row the same way.
 
 ##Visible, collaborative, accessible
 
@@ -26,7 +26,7 @@ We want to use applications or internal/external processes that can be accessed,
 
 ##Async (Asynchronous)
 
-Asynchronous means multiple people can work at the same time. We will try not to do things that consume others time if we do not have to. If you have a question to ask, and it is not mission critical, do not interrupt someone for the answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someone else's productivity just so we can get our answer immediately. Of course, there are exceptions to this rule. This point is primarily about not distracting others, so they can focus on their work. Relevant example: http://twitpic.com/dj27dh
+Asynchronous means multiple people can work at the same time. We will try not to do things that consume others' time if we do not have to. If you have a question to ask, and it is not mission critical, do not interrupt someone for the answer. Send them a note and move on to something else, or answer notes sent to you while you wait on a response. We do not want to interrupt or halt someone else's productivity just so we can get our answer immediately. Of course, there are exceptions to this rule. This point is primarily about not distracting others, so they can focus on their work. Relevant example: http://twitpic.com/dj27dh
 
 Having a headphone policy will help with this too. When someone has their headphones on, leave them alone unless "the building is on fire". If you need to grind, put your headphones on.
 
