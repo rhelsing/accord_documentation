@@ -4,7 +4,7 @@ The following are Accord team value statements. These statements should guide ea
 
 ##Building and maintaining trust
 
-In any business relationship (or personal for that matter), trust is the single most important "glue". Trust is earned by making good on your commitments, or having an understandable and credible reason why you fell short. When we say we will do something, we will do our best to do it.
+In any business relationship (or personal for that matter), trust is the single most important "glue". Trust is earned by making good on your commitments, or having an understandable and credible reason why you fell short. When we say we will do something, we will do our best to do it. Additionally, we will speak up quickly if we don't think we can make good on our goals.
 
 ##We are a culture of doers, learners, teachers.
 
@@ -22,7 +22,7 @@ Let's discuss things we disagree on until we agree or compromise. Let those be d
 
 ##Visible, collaborative, accessible
 
-We want to use applications or internal/external processes that can be accessed, modified, or commented on by all relevant self. Managing any sort of process should not be done on an Excel document or any costly membership-based applications which have free alternatives. This is important to get right so that we can be asynchronous (see the relevant section) and maintain a low barrier to entry when adding members to a team or process. The best tools right now for this are Trello, the main accord application itself, our team chat application (Mattermost), and Github.
+We want to use applications or internal/external processes that can be accessed, modified, or commented on by all relevant staff. Managing processes should **never** be done on local Excel files or costly membership-based applications when free and accessable alternatives exist. This is important to get right so that we can be asynchronous (see the relevant section) and maintain a low barrier to entry when adding members to a team or process. The best tools right now for this are Trello, the main accord application itself, our team chat application (Mattermost), and Github.
 
 ##Async (Asynchronous)
 
@@ -40,7 +40,7 @@ https://hackernoon.com/an-agile-approach-to-life-7bb2e9ccbc81 (Matthew Saltz - A
 
 https://www.youtube.com/watch?v=JjDsP5n2kSM (Jonathan Blow - How to program independent games)
 
-https://vimeo.com/108441214 (Greg Young - The art of destroying software) - *Note: He is kind of annoying, but the message is great!*
+https://vimeo.com/108441214 (Greg Young - The art of destroying software) - *Note: Yes, he is full of himself, but the message is important.*
 
 ##Documentation
 
