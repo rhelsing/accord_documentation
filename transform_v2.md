@@ -13,7 +13,7 @@ Use the transform task in your file pipeline to change values in your data file,
   "perform": {
     "convert": {
       "employment_type": {
-        "FT": "Full Time",
+        "FT": "Full Time", 
         "PT": "Part Time"
       }
     }
@@ -107,33 +107,68 @@ option | **Placeholder** (insert possible options here)
 
 ### Perform Keys: `select` and `reject`
 
-Select (query) data from the Input based on a set of criteria, or reject data from the Input based on a set of criteria. These keys can contain a single object or an array of objects. Each additional `select` will ***include*** more records from the Input. Each additional `reject` will ***exclude*** more records from the Input. Each object must contain the following keys:
+Select (query) data from the Input based on a set of criteria, or reject data from the Input based on a set of criteria. These keys can contain a Condition Object or a set of Grouping Objects that each contain Condition Objects. It is possible to nest multiple Grouping Objects for more complex queries. A `select` key will ***include*** more records from the Input. A `reject` key will ***exclude*** more records from the Input. Each condition object must contain the following keys:
+
+**Condition Object**
 
 Key Name | Expected Value
 -------- | --------------
 column | The name of the column from the Input. Columns generated through a `lookup` or `derive` **placeholder** describe how the alias name will be generated.
 eval | Any one of the following criteria names: <ul><li>is</li><li>starts_with</li><li>ends_with</li><li>contains</li><li>is_less_than</li><li>is_greater_than</li><li>matches</li><li>is_type</li><li>is_blank</li><li>is_present</li><li>has_lookup</li><li>lookup</li></ul>
-value | The term you are searching for. Note the following restrictions, based on the `eval`:<ul><li>A `matches` eval will expect a Regular Expression **placeholder link** as the `value`. You should use this option only if you know what you're doing.</li><li>A `is_type` eval expects a known data type as the `value`. Possible values include: "Number", "Date", "String", "Name", "SSN", and "Boolean".</li><li>A `is_blank` or `is_present` eval does not require a `value`.</li><li>A `has_lookup` eval can only be used if a `lookup` Key is present. The value should match the value supplied for the `input_key`.</li></ul>
+value | The term you are searching for. If the `value` key contains an array, it is assumed that you are searching for any of the values contained in the array.<br><br>Please note the following restrictions, based on the value for the `eval` key:<ul><li>A `matches` eval will expect a Regular Expression **placeholder link** as the `value`. You should use this option only if you know what you're doing.</li><li>A `is_type` eval expects a known data type as the `value`. Possible values include: "Number", "Date", "String", "Name", "SSN", and "Boolean".</li><li>A `is_blank` or `is_present` eval does not require a `value`.</li><li>A `has_lookup` eval can only be used if a `lookup` Key is present. The value should match the value supplied for the `input_key`.</li></ul>
 
-**Example**
+**Grouping Object**
+
+The Grouping Object must contain either an "and" or an "or" key.
+
+Key Name | Expected Value
+-------- | --------------
+and | (optional) An array of Condition Objects
+or | (optional) An array of Condition Objects
+
+**Examples**
+
+Simple select and reject queries:
 ```json
 {
-  "select": [
-    {
-      "column": "department_name",
-      "eval": "is",
-      "value": [ "accounting", "finance" ]
-    },
-    {
-      "column": "employee_job_function",
-      "eval": "contains",
-      "value": "money"
-    }
-  ],
+  "select": {
+    "column": "department_name",
+    "eval": "is",
+    "value": [ "accounting", "finance" ]
+  },
   "reject": {
     "column": "employee_status",
     "eval": "is_greater_than",
     "value": 25000
+  }
+}
+```
+
+Select query with nested Grouping Objects:
+```json
+{
+  "select": {
+    "and": [
+      {
+        "column": "department_name",
+        "eval": "is",
+        "value": [ "accounting", "finance" ]
+      },
+      {
+        "or": [
+          {
+            "column": "employee_job_function",
+            "eval": "contains",
+            "value": "money"
+          },
+          {
+            "column": "employee_equipment",
+            "eval": "contains",
+            "value": "cash register"
+          }
+        ]
+      }
+    ],
   }
 }
 ```
@@ -238,7 +273,7 @@ formula | { function_name: input_column_name, as: output_column_name } | Can be 
 
 ```json
 {
-  "aggregate": {
+  "aggregate": { 
     "group_by": ["department", "employee"],
     "formula": [
       { "average": "gross_pay", "as": "average_pay"},
@@ -328,4 +363,5 @@ This transformation accepts a data file that includes a single column that needs
   }
 }
 ```
+
 
