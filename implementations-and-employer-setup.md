@@ -1,4 +1,4 @@
-Once a client is ready to move forward with Accord there is an implementation and employer setup. 
+Once a client is ready to move forward with Accord there is an implementation and employer setup.
 
 1. Account Manager reach out for initial setup
 2. Client Sets-up Account Online
@@ -17,10 +17,11 @@ Once a client is ready to move forward with Accord there is an implementation an
       12. Measurement Period
       13. Certificate of Eligibilty
 3. Implementation Call with Account Manager
-   1. Full Introductions of the Accord Team
-   2. Full Introductions of the Clients Team
-   3. Review and Confirm Online Implementation Information from Online
-   4. 
+   1. Key Steps for Call
+      1. Full Introductions of the Accord Team
+      2. Full Introductions of the Clients Team
+      3. Review and Confirm Online Implementation Information from Online
+      4. 
 
 
 
