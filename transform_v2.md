@@ -6,15 +6,16 @@ The transformation step transforms data imported into the file pipeline for load
 
 Use the transform task in your file pipeline to change values in your data file, based on the rules you establish in the task parameters. Write the rules in JSON format. A simple transformation that changes an abbreviated `employment_type` column to a spelled-out column (e.g., "FT" to "Full Time") might look like this:
 
-**Placeholder** redo this example because it's wrong.
 ```json
 {
   "version": 2,
   "perform": {
     "convert": {
-      "employment_type": {
-        "FT": "Full Time", 
-        "PT": "Part Time"
+      "column": "employment_type",
+      "formula": {
+        "invert": {
+          "FT": "Full Time",
+          "PT": "Part Time"
       }
     }
   }
@@ -65,11 +66,14 @@ Import a set of values from a reference table. The `lookup` key can contain a si
 
 Key Name | Expected Value
 -------- | --------------
-input_key | The name of the column in the input.
+input_key | The name of the key column in the input. Use an array if multiple columns need to be used as a key.
 lookup_source | An object with `layout` or `file_drop` as the key name, and the name of the source as the value.
-lookup_key | The name of the column in the lookup source.
+lookup_key | The name of the key column in the lookup source. Use an array if multiple columns need to be used as a key -- make sure the array contains the same number of fields as in the input_key, listed in the same order.
 
-**Example**
+**Examples**
+
+Single key lookup:
+
 ```json
 {
   "lookup": {
@@ -77,14 +81,24 @@ lookup_key | The name of the column in the lookup source.
     "lookup_source": {
       "layout": "employee"
     },
-    "lookup_key": "emp_id"
+    "lookup_key": "eid"
   }
 }
 ```
 
-**Ryan's Notes**
+Multiple key lookup:
 
-we should be able to map the values if the headers for the keys being looked up are different from file to lookup file. data_type will likely need more options. Should be able to specify a specific file drop by name or a file pipeline type (and if so, whether to aggregate all of type, or use latest or first, or biggest? or smallest?
+```json
+{
+  "lookup": {
+    "input_key": ["employee_id", "start_date"],
+    "lookup_source": {
+      "layout": "employee"
+    },
+    "lookup_key": ["eid", "start"]
+  }
+}
+```
 
 ### Perform Key: `dedup`
 
@@ -92,10 +106,11 @@ Remove duplicate records from the uploaded data. This key can contain a single o
 
 Key Name | Expected Value
 -------- | --------------
-column | The name of the input column
+column | The name of the input column. Use an array to specify multiple columns.
 option | **Placeholder** (insert possible options here)
 
 **Example**
+
 ```json
 {
   "dedup": {
@@ -107,7 +122,7 @@ option | **Placeholder** (insert possible options here)
 
 ### Perform Keys: `select` and `reject`
 
-Select (query) data from the Input based on a set of criteria, or reject data from the Input based on a set of criteria. These keys can contain a Condition Object or a set of Grouping Objects that each contain Condition Objects. It is possible to nest multiple Grouping Objects for more complex queries. A `select` key will ***include*** more records from the Input. A `reject` key will ***exclude*** more records from the Input. Each condition object must contain the following keys:
+Select (query) data from the Input based on a set of criteria, or reject data from the Input based on a set of criteria. These keys can contain a Condition Object or a set of Grouping Objects that each contain Condition Objects. It is possible to nest multiple Grouping Objects for more complex queries. A `select` key will ***include*** Input rows that match the criteria. A `reject` key will ***exclude*** Input rows that match the criteria. Each condition object must contain the following keys:
 
 **Condition Object**
 
@@ -129,6 +144,7 @@ or | (optional) An array of Condition Objects
 **Examples**
 
 Simple select and reject queries:
+
 ```json
 {
   "select": {
@@ -145,6 +161,7 @@ Simple select and reject queries:
 ```
 
 Select query with nested Grouping Objects:
+
 ```json
 {
   "select": {
@@ -173,11 +190,7 @@ Select query with nested Grouping Objects:
 }
 ```
 
-**Ryan's Note on eval name `lookup`:** What does this mean? - I was thinking that this would be a modifier to run any of the above criterion against a field/value on the foriegn lookup row if present. - maybe this could be a column name modifier instead?
-
 **Joe says** I'd like to think more deeply about how to determine column names for columns generated through a lookup or through other means. The column name will be useful as a column name in the resulting output file, and elsewhere in the transformation definition.
-
-**Joe's additional note** I added `contains` as a possible `eval`.
 
 ### Perform Key: `convert`
 
@@ -204,7 +217,9 @@ other | field_name | Pass the value from another field
 time-values | \*\*NOW\*\*, \*\*TOMORROW\*\*, {past: time_period}, {future: time_period} | time_period = "2 Months" "1 Year" etc.
 custom | ssn, date, name_split
 
-**Example**
+**Note:** Field names should be enclosed in double-asterisks.
+
+**Examples**
 
 ```json
 {
@@ -243,6 +258,8 @@ other | field_name | Pass the value from another field
 time-values | \*\*NOW\*\*, \*\*TOMORROW\*\*, {past: time_period}, {future: time_period} | time_period = "2 Months" "1 Year" etc.
 custom | ssn, date, name_split
 
+**Note:** Field names should be enclosed in double-asterisks.
+
 **Example**
 
 ```json
@@ -250,7 +267,7 @@ custom | ssn, date, name_split
   "derive": {
     "name": "full_name",
     "formula": {
-      "concat": [ "first_name", " ", "last_name" ]
+      "concat": [ "**first_name**", " ", "**last_name**" ]
     }
   }
 }
@@ -293,9 +310,9 @@ etc | ... | ... | ...
 
 ### Perform Key: `map`
 
-Define field mappings between Input and new columns generated through calculations, and Output. **Placeholder** Explain how to name generated columns. Perhaps those names should be user defined?
+Define field mappings between Input and new columns generated through calculations, and Output.
 
-This key should contain only a single object with the Input/Generated columns as keys and Output columns as values.
+This key should contain only a single object with the Input/Generated columns as keys and Output columns as values. Any columns that are excluded from the `map` will not be included in the output. Therefore, make sure to include all columns in your map.
 
 **Example**
 
