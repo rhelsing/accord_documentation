@@ -60,7 +60,7 @@ Once a client is ready to move forward with Accord there is an implementation an
 
           * Medical Files need to come over from all vendors the client is or has used within the reporting year. All medical data should be submitted by November of the reporting year to properly run reports before reporting deadlines
 
-        *  Determine if Cobra is needed and where it will come from - Needed from clients that are self-insured
+        * Determine if Cobra is needed and where it will come from - Needed from clients that are self-insured
 
       * Determine the best way to have client deliver the first round of data
 
