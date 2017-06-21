@@ -70,5 +70,23 @@
 
         * Secure Email - Accord Account Manager needs to send secure email to client to start the secure thread
 
+    * Layout Timeline for the next 90 days to go live with Client
+
+      * Timeline Includes
+
+        * Steps for Implementation
+
+        * Expected Dates to receive initial data
+
+        * Initial Setup Process for Receiving Data
+
+        * Testing Process for Data
+
+        * Steps for Reviewing Data
+
+    * Email Client Timeline and Contacts for Accord
+
+    * 
+
 
 
