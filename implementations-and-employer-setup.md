@@ -88,7 +88,25 @@
 
     * Email Client Timeline and Contacts for Accord
 
-    * 
+    * Test Data - Client should have a test file available within 2 weeks of the kick off call
+
+    * Client Follow-Up 
+
+      * Continued Follow-Up each week until test data is received by client
+
+    * On-going client follow-up
+
+      * Full Service Clients
+
+        * Follow-up Monthly as data is coming in. 
+
+          * If client is not sending data as required - Follow-up weekly until data is received
+
+      * Forms Only Clients
+
+        * Follow-up to touch base once a quarter, until end of the year data is needed.
+
+          * Touch base each week to continue data coming in.
 
 
 
