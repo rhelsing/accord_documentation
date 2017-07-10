@@ -2,6 +2,8 @@
 
 * Client Integration - Source of Client is Needed - Onboarding Process / Portal / Proposal
 
+* Trello Process - Once the source of the client is determined the next step is to review the Trello Implementation Process
+
 * Account Manager Reach Out - Initial Setup for Client
 
 * Client Sets-Up Account Online \(Done before Kick-Off Call or with Account Manager on Call\)
