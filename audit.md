@@ -2,7 +2,7 @@
 
 Starting in August each year, we will begin a audit process for each Full service and form generation client. The initial pass through should last one month and will give us an idea of what to focus on for the rest of the year leading into print and filing. The process entails:
 
-NOTE: a board probably needs to be made for this
+**NOTE: a board probably needs to be made for this**
 
 1. Review of employer settings to make sure accurate and complete
 2. Review possible terms missing (Will)
