@@ -14,6 +14,9 @@ Once a client is ready to move forward with Accord there is an implementation an
           [ ] determine ongoing method of data transfer 
     3. Move to completed when all are done
 
+
+**Note: let's refine the above to make it quickly scannable, then have each item link to a sub-article with content from below with more detail.. so that on Trello, there is a quick checklist and a manager can go to each specific article and see exactly what they need to see next.**
+
 ##Details
 
 * Client Integration - Source of Client is Needed - Onboarding Process / Portal / Proposal
