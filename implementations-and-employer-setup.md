@@ -2,9 +2,9 @@
 
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
-    This board corresponds to the Implementation board on Trello.
-    1. Starts in the inbox from the sales board
-    2. Assign to accord team member, add the following checklist to each new client
+This board corresponds to the Implementation board on Trello.
+1. Starts in the inbox from the sales board
+2. Assign to accord team member, add the following checklist to each new client
       [ ] Prompt Client to complete online setup
       [ ] Client Finishes online setup
       [ ] Approve client in system
@@ -12,7 +12,7 @@ Once a client is ready to move forward with Accord there is an implementation an
       [ ] Conduct Kick off call
           [ ] determine method of initial data transer
           [ ] determine ongoing method of data transfer 
-    3. Move to completed when all are done
+3. Move to completed when all are done
 
 
 **Note: let's refine the above to make it quickly scannable, then have each item link to a sub-article with content from below with more detail.. so that on Trello, there is a quick checklist and a manager can go to each specific article and see exactly what they need to see next.**
