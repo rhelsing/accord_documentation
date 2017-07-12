@@ -1,7 +1,8 @@
 #Sales
 
-1. Acquiring Prospects
-* What to send them
-* Once Proposed, how often to follow up
-* Send contract and move to implementation
+1. Acquire List of Prospects on Trello
+* Send proposal (link to pdf or program here)
+* Once Proposed, follow up regularly
+* Either move forward with contract, or move to lost column
+* If moving forward, move to implementation board
     
