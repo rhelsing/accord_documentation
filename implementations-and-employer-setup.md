@@ -1,8 +1,8 @@
-# Implementations
+#Implementations
 
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
-## Outline
+##Outline
 
 * Client Integration - Source of Client is Needed - Onboarding Process / Portal / Proposal
 

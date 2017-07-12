@@ -10,7 +10,7 @@ The Accord Process operates on an annual cycle. Each year, employers must delive
 
 5. Print
 
-6. Filinf
+6. Filing
 
 
 
