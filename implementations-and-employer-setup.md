@@ -7,7 +7,7 @@ This board corresponds to the Implementation board on Trello.
 1. Starts in the inbox from the sales board
 2. Assign to accord team member, add the following checklist to each new client
 [ ] Prompt Client to complete online setup with intro email and package (Intro email includes specs, guide, options, items to know before call and setup (Will, Steve?))
-[ ] Client Finishes online setup
+[ ] Client Finished online setup
 [ ] Approve client in system
 [ ] Schedule Kick off call
 [ ] Conduct Kick off call
