@@ -11,8 +11,8 @@ This board corresponds to the Implementation board on Trello.
 [ ] Approve client in system
 [ ] Schedule Kick off call
 [ ] Conduct Kick off call
-[ ] determine method of initial data transer
-          [ ] determine ongoing method of data transfer 
+    [ ] determine method of initial data transer
+    [ ] determine ongoing method of data transfer 
 3. Move to completed when all are done
 ```
 
