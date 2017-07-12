@@ -12,7 +12,10 @@ This board corresponds to the Implementation board on Trello.
 [ ] Approve client in system
 [ ] Schedule Kick off call
 [ ] Conduct Kick off call
-    [ ] 
+    [ ] confirm setup & measurement periods
+    [ ] make sure there aren't other ale's
+    [ ] do they need waivers? if so, send follow up email confirming
+    [ ] data, how they will get it to us, and by when
 3. Move to completed when all are done
 ```
 
