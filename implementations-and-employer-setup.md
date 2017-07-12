@@ -3,7 +3,7 @@
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
     This board corresponds to the Implementations board on Trello.
-    1. Starts in the inbox from 
+    1. Starts in the inbox from the sales board
 
 ##Details
 
