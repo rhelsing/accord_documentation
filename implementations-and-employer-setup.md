@@ -3,8 +3,9 @@
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
     This board corresponds to the Implementations board on Trello.
+    1. Starts in the inbox from 
 
-##Outline
+##Details
 
 * Client Integration - Source of Client is Needed - Onboarding Process / Portal / Proposal
 
