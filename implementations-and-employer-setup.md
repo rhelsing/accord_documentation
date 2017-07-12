@@ -1,3 +1,5 @@
+# Implementations
+
 #### Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
 * Client Integration - Source of Client is Needed - Onboarding Process / Portal / Proposal
@@ -90,7 +92,7 @@
 
     * Test Data - Client should have a test file available within 2 weeks of the kick off call
 
-    * Client Follow-Up 
+    * Client Follow-Up
 
       * Continued Follow-Up each week until test data is received by client
 
@@ -98,7 +100,7 @@
 
       * Full Service Clients
 
-        * Follow-up Monthly as data is coming in. 
+        * Follow-up Monthly as data is coming in.
 
           * If client is not sending data as required - Follow-up weekly until data is received
 
