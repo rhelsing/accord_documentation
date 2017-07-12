@@ -2,7 +2,7 @@ The Accord Process operates on an annual cycle. Each year, employers must delive
 
 1. Sales
 
-2. [Implementations](/implementations-and-employer-setup.md)
+2. [Implementatios](/implementations-and-employer-setup.md)
 
 3. Ongoing
 
