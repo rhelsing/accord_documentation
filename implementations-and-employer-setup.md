@@ -16,6 +16,7 @@ This board corresponds to the Implementation board on Trello.
     [ ] make sure there aren't other ale's
     [ ] do they need waivers? if so, send follow up email confirming
     [ ] data, how they will get it to us, and by when
+    [ ] gather info on current payroll system and ben admin system
 3. Move to completed when all are done
 ```
 
