@@ -15,5 +15,3 @@ Starting in August each year, we will begin a audit process for each Full servic
 "mid-year audit email" to the client highlighting any areas where they can improve or patting them on the back like a simple red-yellow-green scale of things like Benefit Data Quality, Timeliness of Data, Payroll Data Quality, etc
 
 Check contracts are signed and stored.
-
-also, on the form patrol check automation, i cant remember, but is that fine tuned now to only check for the errors for the months that we have data for (system update)
