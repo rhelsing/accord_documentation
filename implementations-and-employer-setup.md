@@ -75,7 +75,7 @@ This board corresponds to the Implementation board on Trello.
 
         * If they are Full Service - historical data is needed for payroll and medical \(depending on where the medical files are coming from - could be various vendors\)
 
-          * Payroll needs to be historical for 15 months, i.e. if they go live on June 1, 2017 then the files need to go back to April 1, 2016
+          * Payroll needs to be historical for 14 months, i.e. if they go live on June 1, 2017 then the files need to go back to April 1, 2016
 
           * Medical files need to come over from the start of the reporting year from all vendors that are providing medical files
 
