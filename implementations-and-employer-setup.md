@@ -2,24 +2,28 @@
 
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
-```
 This board corresponds to the Implementation board on Trello.
-1. Starts in the inbox from the sales board
-2. Assign to accord team member, add the following checklist to each new client
-[ ] Prompt Client to complete online setup with intro email and package (Intro email includes specs, guide, options, items to know before call and setup (Will, Steve?))
-[ ] Client Finished online setup
-[ ] Approve client in system
-[ ] Schedule Kick off call
-[ ] Conduct Kick off call
-    [ ] confirm setup & measurement periods
-    [ ] make sure there aren't other ale's
-    [ ] do they need waivers? if so, send follow up email confirming
-    [ ] data, how they will get it to us, and by when
-3. Move to completed when all are done
-```
+
+The following checklist will appear on each Client Card:
+
+1. Intro Email sent
+2. Online Client Sign up Completed
+3. Client Approved and setup in Accord System
+4. Send Initial Bill and Contract
+5. Kick off call scheduled and initial setup package sent via email
+6. Conduct Kick off call
+7. On Call: Verify initial invoice was sent and paid, contract received (before and on call)
+8. On Call: Data Expectations Discussed
+9. IDD Completed and sent to Client for Approval
+10. Received Client Test Files and approved by data team
+11. Historical Payroll files received
+12. Medical files received
 
 
-**Note: let's refine the above to make it quickly scannable, then have each item link to a sub-article with content from below with more detail.. so that on Trello, there is a quick checklist and a manager can go to each specific article and see exactly what they need to see next.**
+Click any of the items from the following chart to view more details.
+
+
+
 
 ##Details
 
