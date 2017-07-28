@@ -8,7 +8,7 @@
     * [Welcome Email](implementations-and-employer-setup/welcome-email.md)
     * [Client Online Setup](implementations-and-employer-setup/client-online-setup.md)
     * [Approval & Contract](implementations-and-employer-setup/approval-and-contract.md)
-    * Kickoff Call
+    * [Kickoff Call](implementations-and-employer-setup/kickoff-call.md)
     * IDD & Data Hand-off
     * [Details - To be seperated](implementations-and-employer-setup/details-to-be-seperated.md)
   * [Ongoing](ongoing.md)
