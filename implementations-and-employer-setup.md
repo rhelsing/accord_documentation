@@ -4,6 +4,8 @@ Once a client is ready to move forward with Accord there is an implementation an
 
 [Playbook chart, images, links]
 
+![](/assets/a.png) ![](/assets/b.png) ![](/assets/c.png) ![](/assets/d.png) ![](/assets/e.png)
+
 ----
 
 The implementation process outlined here corresponds to the Implementation board on Trello. The following checklist will appear on each Client Card. Click on any of the items to view detailed explanations and instructions.
