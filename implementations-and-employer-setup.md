@@ -2,7 +2,6 @@
 
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
-[Playbook chart, images, links]
 
 ![](/assets/a.png) ![](/assets/b.png) ![](/assets/c.png) ![](/assets/d.png) ![](/assets/e.png)
 
