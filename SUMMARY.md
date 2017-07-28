@@ -4,7 +4,7 @@
 * [Core Process](core_process_overview.md)
   * [Sales](sales.md)
   * [Implementation](implementations-and-employer-setup.md)
-    * Details - To be seperated
+    * [Details - To be seperated](implementations-and-employer-setup/details-to-be-seperated.md)
   * [Ongoing](ongoing.md)
     * [Transform V2](transform_v2.md)
   * [Audit](audit.md)
