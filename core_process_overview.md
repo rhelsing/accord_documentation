@@ -12,5 +12,7 @@ The Accord Process operates on an annual cycle. Each year, employers must delive
 
 6. [Filing](/filing.md)
 
+![](/assets/Screen Shot 2017-07-28 at 11.04.01 AM.png)
+
 
 
