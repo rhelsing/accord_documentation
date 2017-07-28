@@ -3,7 +3,7 @@
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
 
-![](/assets/a.png) ![](/assets/b.png) ![](/assets/c.png) ![](/assets/d.png) ![](/assets/e.png)
+[![](/assets/a.png)](/implementations-and-employer-setup/welcome-email.md)[ ![](/assets/b.png)](/implementations-and-employer-setup/client-online-setup.md) [![](/assets/c.png)](/implementations-and-employer-setup/approval-and-contract.md) [![](/assets/d.png)](/implementations-and-employer-setup/kickoff-call.md) [![](/assets/e.png)](/implementations-and-employer-setup/idd-and-data-hand-off.md)
 
 ----
 
