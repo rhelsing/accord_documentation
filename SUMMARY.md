@@ -9,7 +9,7 @@
     * [Client Online Setup](implementations-and-employer-setup/client-online-setup.md)
     * [Approval & Contract](implementations-and-employer-setup/approval-and-contract.md)
     * [Kickoff Call](implementations-and-employer-setup/kickoff-call.md)
-    * IDD & Data Hand-off
+    * [IDD & Data Hand-off](implementations-and-employer-setup/idd-and-data-hand-off.md)
     * [Details - To be seperated](implementations-and-employer-setup/details-to-be-seperated.md)
   * [Ongoing](ongoing.md)
     * [Transform V2](transform_v2.md)
