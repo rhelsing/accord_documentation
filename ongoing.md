@@ -7,6 +7,6 @@ The data team will manage the following on a monthly basis for each client.
 3. Load Payroll
 4. Send Eligibility Reports
 
-We will also send a quarterly payroll report.
+We will also send a quarterly payroll report, to resolve inaccurate terms etc.
 
 Our goal is to automate as much as possible. On the incoming side we do that with The file pipeline and TransformV2 (parsle) and on the outgoing side we do that with automated reports.
