@@ -2,13 +2,11 @@
 
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
-
+[Playbook chart, images, links]
 
 ----
 
-**This board corresponds to the Implementation board on Trello.**
-
-The following checklist will appear on each Client Card:
+The implementation process outlined here corresponds to the Implementation board on Trello. The following checklist will appear on each Client Card. Click on any of the items to view detailed explanations andinstructions.
 
 1. Intro Email sent
 2. Online Client Sign up Completed
