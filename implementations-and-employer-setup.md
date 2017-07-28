@@ -2,7 +2,11 @@
 
 Once a client is ready to move forward with Accord there is an implementation and employer setup. The following steps will guide you through client implementation.
 
-This board corresponds to the Implementation board on Trello.
+
+
+----
+
+**This board corresponds to the Implementation board on Trello.**
 
 The following checklist will appear on each Client Card:
 
@@ -19,10 +23,7 @@ The following checklist will appear on each Client Card:
 11. Historical Payroll files received
 12. Medical files received
 
-
-Click any of the items from the following chart to view more details.
-
-
+----
 
 
 ##Details
