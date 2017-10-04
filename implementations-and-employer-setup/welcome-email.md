@@ -1,5 +1,7 @@
 # Welcome Email
 
+##### **6 Weeks Out a Welcome Email needs to be sent out.**
+
 #### Email Template -
 
 Hi \[Client Name\],
