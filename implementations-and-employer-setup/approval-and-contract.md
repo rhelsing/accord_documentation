@@ -1,5 +1,7 @@
 # Approval & Contract
 
+##### **Approval & Contract should be done 5 weeks out to insure implementation and go live dates are on time**
+
 Assuming that new customer has completed the online setup process, Account Manager will approve customer in the Accord system, by going to Employer&gt;&gt;Sign Ups&gt;&gt;Approve. If customer has yet to complete online setup, then return to previous task.
 
 ![](/assets/contract and approval employer.png)
