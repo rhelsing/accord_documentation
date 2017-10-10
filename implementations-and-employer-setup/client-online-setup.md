@@ -14,17 +14,19 @@ Key functions of the online signup process are:
 
 3.Basic setup questions include:
 
-     a.Name of company and Federal Employer ID – \(FEIN\) – additional ALE members
+```
+ a.Name of company and Federal Employer ID – \(FEIN\) – additional ALE members
 
-     b.Medical plan start dates, waiting periods and funding \(self-insured or fully insured\)
+ b.Medical plan start dates, waiting periods and funding \(self-insured or fully insured\)
 
-     c.Measurement period information for variable hour employees
+ c.Measurement period information for variable hour employees
 
-     d.Payroll information
+ d.Payroll information
 
-     e.Lowest cost monthly premium
+ e.Lowest cost monthly premium
 
-     f.Services they are requesting of Accord – Full Service Tracking, Forms Only, etc.
+ f.Services they are requesting of Accord – Full Service Tracking, Forms Only, etc.
+```
 
 _User is not required to complete every field to sign up. Part of kick off call will confirm any gaps._
 

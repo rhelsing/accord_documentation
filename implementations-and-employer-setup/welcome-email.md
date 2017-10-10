@@ -2,6 +2,8 @@
 
 ##### **6 Weeks Out a Welcome Email needs to be sent out.**
 
+Before Welcome Email and Client Integration the Source of Client is Needed - Onboarding Process / Portal / Proposal
+
 #### Email Template -
 
 Hi \[Client Name\],
