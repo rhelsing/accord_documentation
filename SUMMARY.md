@@ -20,6 +20,7 @@
     * [Monthly Reporting](monthly-reporting.md)
     * [Plan Year Form Set Production](plan-year-form-set-production.md)
     * [Transform V2](transform_v2.md)
+      * [Basic Functions](transform_v2/basic-functions.md)
   * [Audit](audit.md)
   * [Print](print.md)
   * [Filing](filing.md)
