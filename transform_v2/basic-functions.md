@@ -4,8 +4,8 @@ Function | Brief Description
 -------- | -----------------
 [lookup](#lookup) | Import a set of values from a reference table.
 [dedup](#dedup) | Remove duplicate records from the uploaded data.
-[select](#select) | Select (query) data from the Input based on a set of criteria.
-[reject](#reject) | Reject data from the Input based on a set of criteria.
+[select](#select--reject) | Select (query) data from the Input based on a set of criteria.
+[reject](#reject--reject) | Reject data from the Input based on a set of criteria.
 [convert](#convert) | Use a formula to change the data contained in a column.
 [derive](#derive) | Create a new column in the Output and populate the column with values based on a formula.
 [aggregate](#aggregate) | Turn the Output into an aggregate report.
@@ -33,8 +33,40 @@ Basic Evaluation:
 
 Key Name | Expected Value
 -------- | --------------
-column | The name of the column from the Input. Columns generated through a `lookup` or `derive` **placeholder** describe how the alias name will be generated.
-eval | Any one of the following criteria names: <ul><li>is</li><li>starts_with</li><li>ends_with</li><li>contains</li><li>is_less_than</li><li>is_greater_than</li><li>matches</li><li>is_type</li><li>is_blank</li><li>is_present</li><li>has_lookup</li><li>lookup</li></ul>
-value | The term you are searching for. If the `value` key contains an array, it is assumed that you are searching for any of the values contained in the array.<br><br>Please note the following restrictions, based on the value for the `eval` key:<ul><li>A `matches` eval will expect a Regular Expression **placeholder link** as the `value`. You should use this option only if you know what you're doing.</li><li>A `is_type` eval expects a known data type as the `value`. Possible values include: "Number", "Date", "String", "Name", "SSN", and "Boolean".</li><li>A `is_blank` or `is_present` eval does not require a `value`.</li><li>A `has_lookup` eval can only be used if a `lookup` Key is present. The value should match the value supplied for the `input_key`.</li></ul>
+column | The name of the column from the Input.
+eval | Any one of the following criteria names: <ul><li>is</li><li>starts_with</li><li>ends_with</li><li>contains</li><li>is_less_than</li><li>is_greater_than</li><li>matches</li><li>is_type</li><li>is_blank</li><li>is_present</li><li>has_lookup</li></ul>
+value | The term you are searching for. If the `value` key contains an array, it is assumed that you are searching for any of the values contained in the array.</li></ul>
 
+Eval Criteria:
 
+Eval | Description
+---- | -----------
+is | The value in `column` and the value in `value` match exactly.
+is_not | The value in `column` and the value in `value` do not match.
+starts_with | The input value starts with the same characters in `value`.
+ends_with | The input value ends with the same characters in `value`.
+contains | The input value contains the same characters in `value`.
+is_less_than | The input value is less than the value in `value`.
+is_greater_than | The input value is greater than the value in `value`.
+matches | The input value matches a "regular expression" pattern defined in `value`. Use [Rubular](http://rubular.com/) to help you build a regular expression.
+is_type | The input value is a known data type specified in `value`. Possible values include `Number`, `Date`, `String`, `Name`, `SSN`, and `Boolean`
+is_blank | The input value is blank. The `value` parameter is ignored.
+is_present | The input value is not blank. The `value` parameter is ignored.
+has_lookup | (Under development)
+
+### convert
+
+Key name | Expected value
+-------- | --------------
+column | The name of the Input column to convert.
+formula | A Convert formula object. A list of available conversion functions and their formats is listed, below.
+evaluate | An Evaluation object, using the same structure as a select or reject. This makes it possible to apply `convert` based on criteria defined here.
+
+Conversion Functions:
+
+Key name | Description | Expected value
+-------- | ----------- | --------------
+concat | Concatenation - The expected value is an array with strings. Any string that is surrounded by double asterisks will be handled as a field lookup. | ["value 1", "value 2", "value 3"]<br>["value 1", "\*\*field_1\*\*"]
+add | Addition - The expected value is an array with numbers or strings. Any string that is surrounded by double asterisks will be handled as a field lookup. | [1, 2, 3]<br>[\*\*base_salary\*\*, 100]
+subtract | Subtraction - Same format as Addition. | 
+multiply | Multiplication - Same format as Addition. | 
