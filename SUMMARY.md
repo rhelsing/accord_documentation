@@ -22,6 +22,7 @@
     * [Transform V2](transform_v2.md)
       * [Basic Functions](transform_v2/basic-functions.md)
   * [Audit](audit.md)
+    * [Alerts / Warnings](audit/alerts-warnings.md)
   * [Print](print.md)
   * [Filing](filing.md)
 * [Team Values](team_values_overview.md)
