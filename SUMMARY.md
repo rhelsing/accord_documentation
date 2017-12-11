@@ -21,6 +21,7 @@
     * [Plan Year Form Set Production](plan-year-form-set-production.md)
     * [Transform V2](transform_v2.md)
       * [Basic Functions](transform_v2/basic-functions.md)
+      * [Example: Convert Two Columns](transform_v2/example-convert-two-columns.md)
   * [Audit](audit.md)
     * [Alerts / Warnings](audit/alerts-warnings.md)
   * [Print](print.md)
