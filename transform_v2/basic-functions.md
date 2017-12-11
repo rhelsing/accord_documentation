@@ -70,3 +70,28 @@ concat | Concatenation - The expected value is an array with strings. Any string
 add | Addition - The expected value is an array with numbers or strings. Any string that is surrounded by double asterisks will be handled as a field lookup. | [1, 2, 3]<br>[\*\*base_salary\*\*, 100]
 subtract | Subtraction - Same format as Addition. | 
 multiply | Multiplication - Same format as Addition. | 
+string | A plain string.
+divide | Division - The expected value is an array of two numbers. The first number is the numerator, and the second is the denominator. Any string that is surrounded by double asterisks will be handled as a field lookup.
+exp | Exponential - The expected value is an array of two numbers. The first number is the number and the second number is the exponent. Any string that is surrounded by double asterisks will be handled as a field lookup.
+time-values | Acceptable strings include `**NOW**`, `**TOMORROW**`
+
+### Derive
+
+Key name | Expected value
+-------- | --------------
+name | The header name for the new column.
+formula | A Derive formula object. A list of available derive functions and their formats is listed, below.
+condition | A Condition object.
+
+Derive functions:
+
+Key name | Description | Expected value
+-------- | ----------- | --------------
+concat | Concatenation - The expected value is an array with strings. Any string that is surrounded by double asterisks will be handled as a field lookup. | ["value 1", "value 2", "value 3"]<br>["value 1", "\*\*field_1\*\*"]
+add | Addition - The expected value is an array with numbers or strings. Any string that is surrounded by double asterisks will be handled as a field lookup. | [1, 2, 3]<br>[\*\*base_salary\*\*, 100]
+subtract | Subtraction | Same format as Addition.
+multiply | Multiplication | Same format as Addition.
+divide | Division - The expected value is an array of two numbers. The first number is the numerator, and the second is the denominator. Any string that is surrounded by double asterisks will be handled as a field lookup. | [\*\*numerator\*\*, 2]
+exp | Exponential - The expected value is an array of two numbers. The first number is the number and the second number is the exponent. Any string that is surrounded by double asterisks will be handled as a field lookup.
+string | A plain string. | "Some Text"
+split | Splits a string in an existing column to multiple columns. The new columns will be prefixed with the field name you specify. The expected value is a Split object. | {<br>&nbsp;&nbsp;"source_column": "column_name",<br> &nbsp;&nbsp;"delimiter": ",",<br>&nbsp;&nbsp;"split_type": "delimited"<br>}
