@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Core Process](core_process_overview.md)
   * [Sales](sales.md)
-    * Approval/Contract
+    * [Approval/Contract](sales/approvalcontract.md)
   * [Implementation](implementations-and-employer-setup.md)
     * [Trello Process](implementations-and-employer-setup/trello-process.md)
     * [Welcome Email](implementations-and-employer-setup/welcome-email.md)
