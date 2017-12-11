@@ -1,4 +1,10 @@
-Change the value in the work_status column to "A" if the value in the leave_`term` column is greater than the value in the `enddate` column
+If the value in the `leave_term` column is greater than the value in the `end_date` column, the `work_status` will change to "A" and the `leave_term` colum will be blanked out.
+
+To accomplish this:
+
+Change the value in the `work_status` column to "A" if the value in the `leave_term` column is greater than the value in the `end_date` column.
+
+Then, change the value in the `leave_term` column to blank if the value in the `work_status` column is "A".
 
 ```json
 {
