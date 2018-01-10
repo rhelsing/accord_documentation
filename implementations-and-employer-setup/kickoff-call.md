@@ -12,7 +12,7 @@ The Account Manager will set-up and lead the kick-off call. The main purpose of 
 
 **Review and confirm online implementation information**
 
-**Verify Waiver Process** – please see Github directions
+**Verify Waiver Process** – please see **Waiver Process** directions
 
 **Confirm All Data Sources** – Payroll, Medical, Cobra, Time and Attendance, etc.
 
